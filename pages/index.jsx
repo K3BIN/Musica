@@ -37,7 +37,7 @@ const index = () => {
                   Aprende con cursos online gratis música, mezcla, producción musical y más, de la mano de una de las mejores escuelas de música del mundo: Berklee College of Music. Conviértete en un músico integral y consigue los mejores trabajos en música. Aprende a tocar guitarra eléctrica, acústica y más.
                 </p>
                 <p>En este curso aprenderás a definir el rol y las responsabilidades de un productor musical, apreciar la importancia de tener una metodología para que con el tiempo elabores tus propias estrategias de trabajo, capturar tu instinto musical y convertirlo en herramientas útiles, preparar tu DAW (Digital Audio Workstation) para analizar una canción de modo eficiente, maximizar el impacto de la estructura de una canción o tema musical y mucho más.</p>
-                <a href="/Saber_Mas">Saber más</a>
+                <a href="/index">Saber más</a>
               </div>
             </div>
           </div>
@@ -128,7 +128,7 @@ const index = () => {
             </div>
             <div className="col-md-12">
               <div className="text-center mt-3">
-                <Link href="/porfolio">
+                <Link href="/index">
                   <a className="btn btn-outline-light">More Projects</a>
                 </Link>
               </div>

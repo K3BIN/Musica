@@ -23,7 +23,6 @@ const Navbar = (props) =>{
                 <a
                   className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
-                  href="#"
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
@@ -31,15 +30,22 @@ const Navbar = (props) =>{
                   Categorías
                 </a>
                 <div className="dropdown-content">
-                  <a className="dropdown-item" href="#">
-                    Piano
-                  </a>
-                  <a className="dropdown-item" href="#">
-                    Guitarra
-                  </a>
-                  <a className="dropdown-item" href="#">
-                    Violin
-                  </a>
+                  <Link href="/">
+                  
+                      <a className="dropdown-item" >
+                         Piano
+                      </a>
+                  </Link>
+                  <Link href="/">
+                    <a className="dropdown-item" href="#">
+                      Guitarra
+                    </a>
+                  </Link>
+                  <Link href="/">
+                    <a className="dropdown-item" href="#">
+                     Violin
+                    </a>
+                  </Link>
                   <div className="dropdown-divider" />
                   <Link href="/about"> 
                   <a className="dropdown-item" >
@@ -49,14 +55,14 @@ const Navbar = (props) =>{
                 </div>
               </li>
               <li className="nav-item px-2">
-                <Link href="/blog">
+                <Link href="/">
                   <a className="nav-link active" aria-current="page">
                     Iniciar Sesión
                   </a>
                 </Link>
               </li>
               <li className="nav-item px-2">
-                <Link href="/github">
+                <Link href="/">
                   <a className="nav-link">Registrarse</a>
                 </Link>
               </li>
